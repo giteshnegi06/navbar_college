@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    height: 75px;
+    width: 150px;
+    margin-top: 10px;
+}
+.nav1{
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav2{
+    background-color: #232f3e;
+    height: 35px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 9px 10px;
+    font-size: 14px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ser{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#search{
+    height: 50px;
+    width: 800px;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    padding-right: 20px;
+}
+#all{
+    height: 50px;
+    width: 60px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    background-color: #e7aa64;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#sericon{
+    height: 30px;
+}
+
+.lang{
+    height: 50px;
+    width: 50px;
+    background: none;
+    color: #fff;
+    margin-left: -30px;
+}
